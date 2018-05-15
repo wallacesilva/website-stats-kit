@@ -12,6 +12,8 @@ To install this kit execute:
 
 ```
 git clone https://github.com/wallacesilva/website-stats-kit.git wsk
+cd wsk/
+composer install
 ```
 
 ## Requiments
