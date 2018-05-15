@@ -11,7 +11,7 @@ This tool analize website with multiple tools and get statistics about website, 
 To install this kit execute:
 
 ```
-composer install wallacesilva/website-stats-kit
+git clone https://github.com/wallacesilva/website-stats-kit.git wsk
 ```
 
 ## Requiments
