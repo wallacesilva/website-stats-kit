@@ -55,7 +55,7 @@ Thank you for considering contributing to the Website Stats Kit! For now you can
 
 ## Security Vulnerabilities
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+If you discover a security vulnerability within WSK, please [open a issue](https://github.com/wallacesilva/website-stats-kit/issues/new).
 
 ## License
 
