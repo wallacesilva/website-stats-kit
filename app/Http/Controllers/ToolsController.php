@@ -58,7 +58,7 @@ class ToolsController extends Controller
             
         } catch (Exception $e) {
 
-        	$data = ['error' => true, 'msg' => 'Could not connect to: '.$url];
+        	$data = ['error' => true, 'error_code' => 22, 'msg' => 'Could not connect to: '.$url];
             
         }
         
