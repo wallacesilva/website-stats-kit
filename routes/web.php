@@ -15,3 +15,4 @@ Route::get('/', function () {
     return view('welcome');
 });
 Route::get('/tool/check-url-status', 'ToolsController@checkUrlStatus');
+Route::get('/tool/pagespeed', 'ToolsController@checkGooglePageSpeed');
