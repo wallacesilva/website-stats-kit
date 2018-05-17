@@ -86,9 +86,11 @@ class ToolsController extends Controller
 
         	$url_clean = 'http://'.$url_manager['host'];
 
-        }
+        } else {
 
-        $url_clean = $url;
+        	$url_clean = $url;
+
+        }
 
     	$pagespeed_url = sprintf(
     						'https://www.googleapis.com/pagespeedonline/v4/runPagespeed?url=%s&strategy=mobile&key=%s&locale=%s', // 
